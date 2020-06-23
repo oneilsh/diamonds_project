@@ -7,7 +7,7 @@ p <- ggplot() +
   geom_point(data = diamonds,
              mapping = aes(x = carat, 
                            y = price), 
-             alpha = 0.1) +
+             alpha = 0.3) +
   facet_wrap(~ color)
 
 ggsave("plots/plot_diamonds_a.pdf", p, width = 6, height = 4)
