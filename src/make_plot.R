@@ -10,4 +10,4 @@ p <- ggplot() +
              alpha = 0.1) +
   facet_wrap(~ color)
 
-ggsave("plots/plot1.pdf", p, width = 6, height = 4)
+ggsave("plots/plot_diamonds_a.pdf", p, width = 6, height = 4)
